@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Puhutaan suomea II</title>
+  <meta name="description" content="Puhutaan suomea cards II">
+  <meta name="author" content="SitePoint">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css?v=1.3">
+  <link rel="stylesheet" href="lib/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="lib/css/bootstrap.min.css">
+  <script src="lib/vue.js"></script>
+</head>
+<body>
+  <div id="app" class="app">
+    <div>
+    	<button v-on:click="toggleAnswers" v-if="!isAnswerShown" class="btn btn-danger">Show answers</button>
+    	<button v-on:click="toggleAnswers" v-if="isAnswerShown" class="btn btn-danger">Hide answers</button>
+    </div>
+    <div class="lang-card card" id="question">
+      <article>
+        {{ current + 1 }}. {{ question }}
+      </article>
+      <button v-on:click="vocalizeQuestion" class="btn btn-default">&#128266;</button>
+    </div>
+    <div class="lang-card card" id="answer" v-if="isAnswerShown">
+      <article class="answer">
+        {{ answer }}
+      </article>
+      <button v-on:click="vocalizeAnswer" class="btn btn-default">&#128266;</button>
+    </div>
+    <div class="btn-group">
+      <button v-on:click="prevQuestion" class="btn-success">Prev</button>
+      <button v-on:click="randomQuestoin" class="btn-primary">Random</button>
+      <button v-on:click="nextQuestion" class="btn-success">Next</button>
+    </div>
+  </div>
+  <script src="scripts.js?v=1.1" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  flex-direction: column;
+  font-size: 24px;
+}
+
+.selected-chapters {
+  display: flex;
+  justify-content: space-between;
+  width: 70vw;
+  margin-bottom: 1em;
+}
+
+.answer {
+  max-height: 7em;
+  overflow: auto;
+}
+
+.selected-chapters span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app .lang-card {
+  padding: 0.5em;
+  height: 10em;
+  border: 1px solid lightgray;
+  margin: 1em;
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app .btn {
+  font-size: unset;
+}
+
+#answer {
+//  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .app .card {
+    width: 90%;
+  }
+}
