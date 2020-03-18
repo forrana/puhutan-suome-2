@@ -4,7 +4,7 @@
 
   <title>Puhutaan suomea II</title>
   <meta name="description" content="Puhutaan suomea cards II">
-  <meta name="author" content="SitePoint">
+  <meta name="author" content="Forrana">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="styles.css?v=1.3">
   <link rel="stylesheet" href="lib/css/bootstrap-reboot.min.css">
@@ -23,11 +23,17 @@
       </article>
       <button v-on:click="vocalizeQuestion" class="btn btn-default">&#128266;</button>
     </div>
+    <section class="selected-chapters" v-on:click="resetIndex">
+      <span><input type="checkbox" value="1" v-model="selectedChapters">1</span>
+      <span><input type="checkbox" value="2" v-model="selectedChapters">2</span>
+      <span><input type="checkbox" value="3" v-model="selectedChapters">3</span>
+      <span><input type="checkbox" value="4" v-model="selectedChapters">4</span>
+    </section>
     <div class="lang-card card" id="answer" v-if="isAnswerShown">
       <article class="answer">
         {{ answer }}
       </article>
-      <button v-on:click="vocalizeAnswer" class="btn btn-default">&#128266;</button>
+      <button v-on:click="vocalizeAnswer" class="btn-success">&#128266;</button>
     </div>
     <div class="btn-group">
       <button v-on:click="prevQuestion" class="btn-success">Prev</button>
