@@ -68,10 +68,16 @@ var app = new Vue({
       ["Millainen päiväohjelma sinulla on?",  "Herään kahdeksalta. Käyn suihkussa. Puen päälle. Syön aamupalaa. Teen töitä. Soitan työpuheluita. Meillä on puhelinpalaveri kello 11. Sitten syön lounasta. Yleensä syön pastaa ja salaattia. Teen vielä töitä. Kello viisi menen lenkille. Kuudelta syömme iltaruokaa. Illalla pelaan pelejä, käyn saunassa ja suunnittelen seuraavaa päivää", "", ["chapter 4"]],
       ["Mitä sä teet yleensä lomalla?", "Matkustan paljon. Olen mökillä ja rentoudun. Olen perheen kanssa.", "", ["chapter 4"]],
       ["Mitä luulet, miten kauan korona-kriisi kestää?", "En osaa sanoa. Kolme kuukautta. Yks vuotta.", "", ["chapter 4"]],
+
+      ["Millainen koti sinulla on?", "Minulla on kiva pieni koti. Asun korkeassa kerrostalossa. Se on yksio. Siellä on keittiö ja olohuone", "", ["chapter 5"]],
+      ["Mitä sun keittiössä olohuoneessa on?",  "Mun keittiössä on pöytä ja neljä tuolia. Siellä on kahvinkeitin, jääkaappi, uuni,  hella ja pesukone.", "", ["chapter 5"]],
+      ["Oletko ollut etätöissä?", "Joo, olen ollut etätöissä. Se on mukava. Tykkään siitä.", "", ["chapter 5"]],
+      ["Minne haluaisit matkustaa?", "Haluaisin matkustaa Norjan. Koska tykkään Norjaa.", "", ["chapter 5"]],
+      ["Missä taulut/kukat/kirjat/kasvit/tietokone/pyyhkeet/vaatteetovat/on sinun kotona? ?", "(Meillä/minun kotona) kasvit ovatpöydällä/ikkunalaudalla/hyllyssä/parvekkeella. Tietokoneet ovat lattialla tai sohvalla. Kirjat ovat hyllyssä tai keinutuolissa. ", "", ["chapter 5"]],
     ],
     current: 0,
     isAnswerShown: false,
-    selectedChapters: [1, 2, 3, 4],
+    selectedChapters: [1, 2, 3, 4, 5],
   },
   computed: {
     question: function () {
