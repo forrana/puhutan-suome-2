@@ -73,7 +73,7 @@ var app = new Vue({
       ["Mitä sun keittiössä olohuoneessa on?",  "Mun keittiössä on pöytä ja neljä tuolia. Siellä on kahvinkeitin, jääkaappi, uuni,  hella ja pesukone.", "", ["chapter 5"]],
       ["Oletko ollut etätöissä?", "Joo, olen ollut etätöissä. Se on mukava. Tykkään siitä.", "", ["chapter 5"]],
       ["Minne haluaisit matkustaa?", "Haluaisin matkustaa Norjan. Koska tykkään Norjaa.", "", ["chapter 5"]],
-      ["Missä taulut/kukat/kirjat/kasvit/tietokone/pyyhkeet/vaatteetovat/on sinun kotona? ?", "(Meillä/minun kotona) kasvit ovatpöydällä/ikkunalaudalla/hyllyssä/parvekkeella. Tietokoneet ovat lattialla tai sohvalla. Kirjat ovat hyllyssä tai keinutuolissa. ", "", ["chapter 5"]],
+      ["Missä taulut/kukat/kirjat/kasvit/tietokone/pyyhkeet/vaatteetovat/on sinun kotona?", "(Meillä/minun kotona) kasvit ovatpöydällä/ikkunalaudalla/hyllyssä/parvekkeella. Tietokoneet ovat lattialla tai sohvalla. Kirjat ovat hyllyssä tai keinutuolissa. ", "", ["chapter 5"]],
     ],
     current: 0,
     isAnswerShown: false,
