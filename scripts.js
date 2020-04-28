@@ -40,7 +40,7 @@ var app = new Vue({
       ["Tykkäätkö sä lumesta?",  "Joo. Tykkään", "", ["chapter 2"]],
       ["Osaatko luistella?", "En osaa. Osaan lasketella.", "", ["chapter 2"]],
       ["Kerro jotain itsestäsi?",  "Mä tykkään kahvista ja jäätelösta", "", ["chapter 2"]],
-      ["Mitä laskiaisena tehdään?", "", "", ["chapter 2"]],
+      ["Mitä laskiaisena tehdään?", "Menen ylos, hihtää ja lasketella paljon. Syön laskean pullaa ja hernekeittoa.", "", ["chapter 2"]],
 
       ["Mitä kello on?", "Kello on puoli viisi", "", ["chapter 3"]],
       ["Onko kello nyt seitsemän?",  "Ei. Kello on puoli kuusi", "", ["chapter 3"]],
@@ -52,7 +52,7 @@ var app = new Vue({
       ["Tykkäätkö sä mämmistä?", "Joo, tykkään.", "", ["chapter 3"]],
       ["Oletko sinä maistanut mämmiä?",  "Joo. olen maistanut mämmiä. Se oli hyvää. En ole maistanut mämmistä", "", ["chapter 3"]],
       ["Heräätko sinä kello kuudelta?", "En herää, herään kahdeksalta", "", ["chapter 3"]],
-      ["Menetkö töihin kahdeksalta?", "Joo herään", "", ["chapter 3"]],
+      ["Menetkö töihin kahdeksalta?", "En, menen yhdeksalta", "", ["chapter 3"]],
       ["Mitä sä teet yleensä illalla?", "Yleensä teen ruokka ja käyn baarissa.", "", ["chapter 3"]],
 
       ["Mitä pääsiäisenä tehdään?",  "Pääsiäisenä syödään pashaa. Palmusunnuntaina lapset virpovat. He kasvattavat reiruohaa.", "", ["chapter 3"]],
@@ -60,8 +60,8 @@ var app = new Vue({
       ["Teetkö nyt etätöitä?", "Joo, teen nyt kotona töitä", "", ["chapter 4"]],
       ["Onko kello nyt kaksitoista?",  "Ei. Kello on puoli kuusi", "", ["chapter 4"]],
       ["Nyt on kevät. Millainen sää on Suomessa?", "Kevät on kaunis. Aurinko paistaa. Välillä sataa vettä. On valoisaa. On jo lämmintä. Ei ole pakkasta! Ei ole lunta.", "", ["chapter 4"]],
-      ["Monelta nouset aamulla? Entä monelta syöt lounasta", "", "", ["chapter 4"]],
-      ["Mitä sä syöt tavallisesti lounaaksi?", "Syön yleensä hernekeittoa ja lohta", "", ["chapter 4"]],
+      ["Monelta nouset aamulla? Entä monelta syöt lounasta", "Nousen aamulla kahdeksalta. Syön lounasta puoli yksitoista.", "", ["chapter 4"]],
+      ["Mitä sä syöt tavallisesti lounaaksi?", "Syön yleensä salattia, ja hernekeittoa ja lohta", "", ["chapter 4"]],
 
       ["Miten koronavirus vaikutta elämääsi",  "Olen nyt kotona. Teen töitä kotona. En matkusta. Ulkoilen paljon. Nyt voin lukea paljon ja tehdä hyvää ruokaa.Pesen käsiä koko ajan. Käytän käsidesiä", "", ["chapter 4"]],
       ["Oletko sinä maistanut pashaa?", "Joo. olen maistanut pashaa. Se oli hyvää. En pidä pashasta.", "", ["chapter 4"]],
@@ -73,7 +73,7 @@ var app = new Vue({
       ["Mitä sun keittiössä olohuoneessa on?",  "Mun keittiössä on pöytä ja neljä tuolia. Siellä on kahvinkeitin, jääkaappi, uuni,  hella ja pesukone.", "", ["chapter 5"]],
       ["Oletko ollut etätöissä?", "Joo, olen ollut etätöissä. Se on mukava. Tykkään siitä.", "", ["chapter 5"]],
       ["Minne haluaisit matkustaa?", "Haluaisin matkustaa Norjan. Koska tykkään Norjaa.", "", ["chapter 5"]],
-      ["Missä taulut/kukat/kirjat/kasvit/tietokone/pyyhkeet/vaatteetovat/on sinun kotona?", "(Meillä/minun kotona) kasvit ovatpöydällä/ikkunalaudalla/hyllyssä/parvekkeella. Tietokoneet ovat lattialla tai sohvalla. Kirjat ovat hyllyssä tai keinutuolissa. ", "", ["chapter 5"]],
+      ["Missä taulut/kukat/kirjat/kasvit/tietokone/pyyhkeet/vaatteetovat/on sinun kotona?", "(Meillä/minun kotona) kasvit ovat pöydällä/ikkunalaudalla/hyllyssä/parvekkeella. Tietokoneet ovat lattialla tai sohvalla. Kirjat ovat hyllyssä tai keinutuolissa. ", "", ["chapter 5"]],
     ],
     current: 0,
     isAnswerShown: false,
